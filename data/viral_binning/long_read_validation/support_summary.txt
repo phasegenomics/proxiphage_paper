@@ -1,0 +1,8 @@
+
+Number of contigs in vMAGs: 791
+Length of contigs in vMAGs: 27505287
+Number of total vMAGs: 315
+Number of conflicting vMAGs: 27 (8%)
+Number of unvalidated vMAGs: 39 (12%)
+Number of partially validated vMAGs: 5 (1%)
+Number of perfectly validated vMAGs: 244 (77%)

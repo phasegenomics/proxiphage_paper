@@ -1,0 +1,206 @@
+contig_id	contig_length	provirus	proviral_length	gene_count	viral_genes	host_genes	checkv_quality	miuvig_quality	completeness	completeness_method	contamination	kmer_freq	warnings
+vMAG_20|N=2|L=12460	12660	No	NA	19	7	0	High-quality	High-quality	94.24	AAI-based (high-confidence)	0.0	1.0	
+vMAG_180|N=3|L=30063	30463	No	NA	47	23	0	Medium-quality	Genome-fragment	84.01	AAI-based (high-confidence)	0.0	1.0	
+vMAG_73|N=3|L=16700	17100	No	NA	23	4	1	Low-quality	Genome-fragment	48.54	AAI-based (high-confidence)	0.0	1.0	
+vMAG_14|N=2|L=32108	32308	No	NA	25	4	12	Medium-quality	Genome-fragment	68.42	HMM-based (lower-bound)	0.0	1.0	
+vMAG_65|N=6|L=111866	112866	No	NA	161	56	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	contig >1.5x longer than expected genome length
+vMAG_164|N=4|L=71879	72479	Yes	13633	71	8	17	Low-quality	Genome-fragment	26.2	HMM-based (lower-bound)	81.19	1.0	>1 viral region detected
+vMAG_119|N=2|L=13538	13738	No	NA	15	0	3	Low-quality	Genome-fragment	10.53	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+vMAG_37|N=2|L=25366	25566	No	NA	36	2	4	Low-quality	Genome-fragment	42.58	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_32|N=3|L=41962	42362	Yes	8140	61	5	9	Low-quality	Genome-fragment	9.79	HMM-based (lower-bound)	80.78	1.0	
+vMAG_29|N=4|L=28433	29033	No	NA	41	8	0	Low-quality	Genome-fragment	16.58	AAI-based (high-confidence)	0.0	1.0	
+vMAG_173|N=4|L=65578	66178	No	NA	100	37	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+vMAG_115|N=2|L=16601	16801	No	NA	27	11	2	Low-quality	Genome-fragment	47.7	AAI-based (high-confidence)	0.0	1.0	
+vMAG_96|N=5|L=110671	111471	Yes	55162	138	30	31	Complete	High-quality	100.0	Provirus (high-confidence)	50.51	1.0	contig >1.5x longer than expected genome length
+vMAG_196|N=2|L=25856	26056	Yes	23584	37	12	3	Medium-quality	Genome-fragment	64.37	AAI-based (high-confidence)	9.49	1.0	
+vMAG_93|N=2|L=24843	25043	No	NA	33	17	0	Medium-quality	Genome-fragment	58.51	AAI-based (high-confidence)	0.0	1.0	
+vMAG_188|N=2|L=17951	18151	No	NA	25	5	0	Low-quality	Genome-fragment	31.77	AAI-based (high-confidence)	0.0	1.0	
+vMAG_176|N=9|L=103155	104755	No	NA	147	28	16	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	contig >1.5x longer than expected genome length
+vMAG_147|N=2|L=20764	20964	No	NA	29	18	0	Low-quality	Genome-fragment	34.18	AAI-based (high-confidence)	0.0	1.0	
+vMAG_60|N=8|L=106630	108030	Yes	93983	127	22	23	High-quality	High-quality	100.0	AAI-based (high-confidence)	13.0	1.0	contig >1.5x longer than expected genome length
+vMAG_87|N=2|L=12398	12598	No	NA	10	0	7	Low-quality	Genome-fragment	9.35	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+vMAG_198|N=2|L=22051	22251	Yes	16580	31	4	2	Low-quality	Genome-fragment	33.88	AAI-based (high-confidence)	25.49	1.0	
+vMAG_99|N=2|L=25234	25434	No	NA	47	10	2	Low-quality	Genome-fragment	43.11	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_76|N=2|L=42913	43113	No	NA	50	22	0	Complete	High-quality	100.0	DTR (high-confidence)	0.0	1.0	
+vMAG_21|N=4|L=25730	26330	No	NA	29	15	1	Medium-quality	Genome-fragment	53.52	AAI-based (high-confidence)	0.0	1.0	
+vMAG_191|N=3|L=121185	121585	No	NA	115	4	69	High-quality	High-quality	99.43	HMM-based (lower-bound)	0.0	1.0	
+vMAG_53|N=3|L=19829	20229	No	NA	16	1	5	Low-quality	Genome-fragment	38.12	HMM-based (lower-bound)	0.0	1.0	
+vMAG_148|N=2|L=26453	26653	No	NA	24	1	1	Low-quality	Genome-fragment	35.27	HMM-based (lower-bound)	0.0	1.0	
+vMAG_2|N=11|L=84895	86895	No	NA	126	18	4	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	contig >1.5x longer than expected genome length
+vMAG_158|N=3|L=22082	22482	No	NA	28	3	0	Low-quality	Genome-fragment	48.32	AAI-based (high-confidence)	0.0	1.0	
+vMAG_104|N=4|L=30391	30991	No	NA	33	4	0	Medium-quality	Genome-fragment	70.99	AAI-based (high-confidence)	0.0	1.0	
+vMAG_172|N=2|L=20925	21125	No	NA	35	5	1	Low-quality	Genome-fragment	38.62	AAI-based (high-confidence)	0.0	1.0	
+vMAG_48|N=4|L=54672	55272	Yes	47409	73	18	9	High-quality	High-quality	100.0	AAI-based (high-confidence)	14.23	1.0	contig >1.5x longer than expected genome length
+vMAG_39|N=3|L=25499	25899	No	NA	38	2	1	Medium-quality	Genome-fragment	57.59	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_91|N=8|L=56429	57829	Yes	30850	72	14	13	Complete	High-quality	100.0	DTR (medium-confidence)	46.65	1.0	>1 viral region detected; contig >1.5x longer than expected genome length
+vMAG_38|N=2|L=14760	14960	No	NA	23	12	0	Low-quality	Genome-fragment	28.04	AAI-based (high-confidence)	0.0	1.0	
+vMAG_1|N=2|L=13223	13423	Yes	7969	12	2	6	Low-quality	Genome-fragment	9.56	HMM-based (lower-bound)	40.63	1.0	
+vMAG_160|N=5|L=150283	151083	Yes	59897	178	27	68	High-quality	High-quality	90.3	HMM-based (lower-bound)	60.35	1.0	
+vMAG_46|N=2|L=21374	21574	No	NA	26	3	1	Low-quality	Genome-fragment	10.9	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_195|N=2|L=12035	12235	No	NA	11	1	1	Low-quality	Genome-fragment	5.51	HMM-based (lower-bound)	0.0	1.0	
+vMAG_61|N=6|L=45337	46337	No	NA	63	14	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+vMAG_23|N=9|L=81253	82853	No	NA	112	43	1	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	contig >1.5x longer than expected genome length
+vMAG_90|N=4|L=38354	38954	No	NA	50	20	1	High-quality	High-quality	99.85	AAI-based (high-confidence)	0.0	1.0	
+vMAG_197|N=2|L=18814	19014	No	NA	31	7	0	Low-quality	Genome-fragment	27.21	HMM-based (lower-bound)	0.0	1.0	
+vMAG_181|N=2|L=15922	16122	No	NA	19	4	0	Medium-quality	Genome-fragment	56.19	AAI-based (high-confidence)	0.0	1.0	
+vMAG_139|N=4|L=95449	96049	No	NA	91	10	0	Medium-quality	Genome-fragment	88.25	AAI-based (high-confidence)	0.0	1.0	
+vMAG_159|N=2|L=22191	22391	No	NA	31	10	0	Medium-quality	Genome-fragment	61.71	AAI-based (high-confidence)	0.0	1.0	
+vMAG_177|N=2|L=14791	14991	No	NA	23	3	0	Low-quality	Genome-fragment	30.14	HMM-based (lower-bound)	0.0	1.0	
+vMAG_100|N=3|L=32630	33030	No	NA	41	21	2	Medium-quality	Genome-fragment	68.72	AAI-based (high-confidence)	0.0	1.0	
+vMAG_57|N=2|L=32344	32544	No	NA	60	7	4	Low-quality	Genome-fragment	49.9	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_183|N=2|L=46791	46991	No	NA	57	16	2	Medium-quality	Genome-fragment	77.01	AAI-based (high-confidence)	0.0	1.0	
+vMAG_59|N=3|L=66260	66660	No	NA	86	14	6	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_12|N=2|L=19248	19448	No	NA	28	12	1	Medium-quality	Genome-fragment	59.27	AAI-based (high-confidence)	0.0	1.0	
+vMAG_81|N=2|L=22649	22849	No	NA	33	3	2	Low-quality	Genome-fragment	25.02	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_24|N=3|L=20101	20501	No	NA	26	9	2	Low-quality	Genome-fragment	36.63	AAI-based (high-confidence)	0.0	1.0	
+vMAG_184|N=2|L=56783	56983	No	NA	85	23	0	High-quality	High-quality	93.86	AAI-based (high-confidence)	0.0	1.0	
+vMAG_95|N=5|L=71087	71887	Yes	65243	109	32	7	High-quality	High-quality	100.0	AAI-based (high-confidence)	9.24	1.0	
+vMAG_69|N=2|L=18544	18744	No	NA	27	7	0	Low-quality	Genome-fragment	37.29	AAI-based (high-confidence)	0.0	1.0	
+vMAG_151|N=3|L=84761	85161	No	NA	64	7	0	Medium-quality	Genome-fragment	89.22	AAI-based (high-confidence)	0.0	1.0	
+vMAG_7|N=19|L=164460	168060	No	NA	187	15	36	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+vMAG_94|N=2|L=27854	28054	No	NA	33	16	0	Medium-quality	Genome-fragment	73.21	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_185|N=3|L=31316	31716	No	NA	40	11	1	Medium-quality	Genome-fragment	51.9	AAI-based (high-confidence)	0.0	1.0	
+vMAG_71|N=7|L=76856	78056	No	NA	137	21	2	Low-quality	Genome-fragment	41.62	HMM-based (lower-bound)	0.0	1.0	
+vMAG_33|N=7|L=136858	138058	Yes	50389	152	7	43	Low-quality	Genome-fragment	28.87	AAI-based (high-confidence)	63.5	1.0	
+vMAG_132|N=2|L=45722	45922	Yes	16163	49	5	14	Low-quality	Genome-fragment	38.56	AAI-based (high-confidence)	64.8	1.0	low-confidence Provirus
+vMAG_68|N=2|L=42627	42827	No	NA	64	22	0	Medium-quality	Genome-fragment	84.87	AAI-based (high-confidence)	0.0	1.0	
+vMAG_157|N=2|L=79817	80017	Yes	25338	67	5	33	Low-quality	Genome-fragment	33.78	HMM-based (lower-bound)	68.33	1.0	low-confidence Provirus
+vMAG_56|N=2|L=43852	44052	Yes	36513	66	24	3	Medium-quality	Genome-fragment	82.49	AAI-based (medium-confidence)	17.11	1.0	
+vMAG_16|N=20|L=208387	212187	No	NA	270	74	22	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	contig >1.5x longer than expected genome length
+vMAG_125|N=2|L=28610	28810	Yes	8485	25	3	12	Low-quality	Genome-fragment	21.42	AAI-based (medium-confidence)	70.55	1.0	
+vMAG_85|N=3|L=20102	20502	No	NA	25	6	1	Low-quality	Genome-fragment	14.88	AAI-based (high-confidence)	0.0	1.0	
+vMAG_156|N=4|L=75049	75649	Yes	65694	117	30	7	High-quality	High-quality	100.0	AAI-based (high-confidence)	13.16	1.0	
+vMAG_13|N=3|L=30637	31037	Yes	15008	30	4	5	Low-quality	Genome-fragment	18.32	AAI-based (high-confidence)	51.64	1.0	
+vMAG_121|N=2|L=16035	16235	No	NA	21	14	0	Low-quality	Genome-fragment	34.56	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_51|N=2|L=44710	44910	Yes	31105	63	16	13	Medium-quality	Genome-fragment	83.77	AAI-based (medium-confidence)	30.74	1.0	
+vMAG_201|N=2|L=20839	21039	Yes	5654	28	6	5	Low-quality	Genome-fragment	7.14	HMM-based (lower-bound)	73.13	1.0	
+vMAG_129|N=3|L=37057	37457	No	NA	68	20	0	Medium-quality	Genome-fragment	61.96	AAI-based (high-confidence)	0.0	1.0	
+vMAG_28|N=2|L=10916	11116	No	NA	10	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+vMAG_142|N=2|L=13213	13413	No	NA	16	1	1	Low-quality	Genome-fragment	17.33	AAI-based (high-confidence)	0.0	1.0	
+vMAG_205|N=2|L=136193	136393	No	NA	129	0	78	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+vMAG_199|N=2|L=11884	12084	No	NA	20	4	1	Low-quality	Genome-fragment	33.3	AAI-based (high-confidence)	0.0	1.0	
+vMAG_118|N=4|L=109874	110474	No	NA	154	27	1	Medium-quality	Genome-fragment	84.35	AAI-based (high-confidence)	0.0	1.0	
+vMAG_6|N=4|L=50016	50616	No	NA	79	15	6	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	contig >1.5x longer than expected genome length
+vMAG_126|N=2|L=41163	41363	No	NA	50	19	1	Medium-quality	Genome-fragment	50.24	AAI-based (high-confidence)	0.0	1.0	
+vMAG_67|N=2|L=11345	11545	No	NA	11	0	8	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+vMAG_146|N=2|L=117499	117699	Yes	51966	146	20	59	Complete	High-quality	100.0	Provirus (medium-confidence)	55.85	1.0	contig >1.5x longer than expected genome length
+vMAG_92|N=5|L=112979	113779	Yes	97239	164	30	17	Medium-quality	Genome-fragment	61.27	AAI-based (high-confidence)	14.54	1.0	low-confidence Provirus
+vMAG_11|N=6|L=109030	110030	No	NA	179	31	5	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+vMAG_135|N=3|L=60056	60456	Yes	31426	76	22	16	Complete	High-quality	100.0	Provirus (medium-confidence)	48.02	1.0	contig >1.5x longer than expected genome length
+vMAG_127|N=4|L=46110	46710	No	NA	70	22	1	Medium-quality	Genome-fragment	89.11	AAI-based (high-confidence)	0.0	1.0	
+vMAG_10|N=2|L=16867	17067	No	NA	28	1	5	Low-quality	Genome-fragment	36.43	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_122|N=2|L=13563	13763	No	NA	13	0	2	Low-quality	Genome-fragment	21.1	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+vMAG_26|N=5|L=76657	77457	Yes	58405	106	31	12	Complete	High-quality	100.0	Provirus (high-confidence)	24.6	1.0	contig >1.5x longer than expected genome length
+vMAG_138|N=3|L=38285	38685	Yes	13908	41	6	12	Low-quality	Genome-fragment	26.44	HMM-based (lower-bound)	64.05	1.0	
+vMAG_166|N=3|L=32824	33224	No	NA	67	12	1	Medium-quality	Genome-fragment	66.49	AAI-based (high-confidence)	0.0	1.0	
+vMAG_163|N=2|L=15494	15694	No	NA	20	5	2	Low-quality	Genome-fragment	11.39	AAI-based (high-confidence)	0.0	1.0	
+vMAG_55|N=10|L=91465	93265	Yes	23891	101	20	21	Medium-quality	Genome-fragment	55.92	AAI-based (high-confidence)	74.38	1.0	>1 viral region detected; contig >1.5x longer than expected genome length
+vMAG_3|N=2|L=12285	12485	No	NA	18	6	0	Low-quality	Genome-fragment	22.98	AAI-based (high-confidence)	0.0	1.0	
+vMAG_47|N=2|L=22227	22427	No	NA	39	1	2	Low-quality	Genome-fragment	25.11	HMM-based (lower-bound)	0.0	1.0	
+vMAG_42|N=6|L=51937	52937	No	NA	77	3	11	Medium-quality	Genome-fragment	79.26	HMM-based (lower-bound)	0.0	1.0	
+vMAG_5|N=17|L=201871	205071	No	NA	218	46	23	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	contig >1.5x longer than expected genome length
+vMAG_43|N=2|L=31061	31261	No	NA	51	22	1	Medium-quality	Genome-fragment	83.25	AAI-based (high-confidence)	0.0	1.0	
+vMAG_103|N=2|L=16698	16898	No	NA	17	5	0	Low-quality	Genome-fragment	27.43	HMM-based (lower-bound)	0.0	1.0	
+vMAG_40|N=3|L=23706	24106	No	NA	37	13	1	Medium-quality	Genome-fragment	51.41	AAI-based (high-confidence)	0.0	1.0	
+vMAG_72|N=2|L=23522	23722	No	NA	22	7	1	Low-quality	Genome-fragment	32.09	AAI-based (high-confidence)	0.0	1.0	
+vMAG_194|N=3|L=31742	32142	No	NA	48	2	4	Low-quality	Genome-fragment	23.55	HMM-based (lower-bound)	0.0	1.0	
+vMAG_117|N=2|L=30550	30750	No	NA	23	2	11	Medium-quality	Genome-fragment	53.93	HMM-based (lower-bound)	0.0	1.0	
+vMAG_200|N=2|L=33347	33547	No	NA	44	15	0	Medium-quality	Genome-fragment	60.6	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_22|N=17|L=225375	228575	No	NA	257	34	15	High-quality	High-quality	97.25	HMM-based (lower-bound)	0.0	1.0	
+vMAG_136|N=3|L=26250	26650	No	NA	35	4	3	Medium-quality	Genome-fragment	50.1	AAI-based (high-confidence)	0.0	1.0	
+vMAG_52|N=2|L=16196	16396	No	NA	13	0	4	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+vMAG_102|N=2|L=12873	13073	No	NA	17	9	0	Low-quality	Genome-fragment	27.85	AAI-based (high-confidence)	0.0	1.0	
+vMAG_111|N=4|L=58501	59101	No	NA	80	7	1	Medium-quality	Genome-fragment	55.62	AAI-based (high-confidence)	0.0	1.0	
+vMAG_44|N=2|L=15394	15594	No	NA	10	0	5	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+vMAG_86|N=2|L=34182	34382	Yes	25617	51	12	6	Medium-quality	Genome-fragment	75.1	AAI-based (high-confidence)	25.49	1.0	
+vMAG_131|N=4|L=50054	50654	No	NA	86	24	0	High-quality	High-quality	92.31	AAI-based (high-confidence)	0.0	1.0	
+vMAG_8|N=6|L=49524	50524	No	NA	77	8	2	Medium-quality	Genome-fragment	86.85	AAI-based (high-confidence)	0.0	1.0	
+vMAG_140|N=3|L=70584	70984	Yes	16176	82	9	30	Low-quality	Genome-fragment	19.31	HMM-based (lower-bound)	77.21	1.0	low-confidence Provirus
+vMAG_50|N=6|L=45749	46749	No	NA	62	7	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+vMAG_116|N=3|L=30000	30400	No	NA	35	24	0	Medium-quality	Genome-fragment	63.48	AAI-based (high-confidence)	0.0	1.0	
+vMAG_152|N=3|L=69100	69500	Yes	44570	101	28	9	Medium-quality	Genome-fragment	68.96	AAI-based (high-confidence)	35.87	1.0	
+vMAG_15|N=3|L=28829	29229	Yes	22875	40	8	4	Low-quality	Genome-fragment	41.37	AAI-based (medium-confidence)	21.74	1.0	
+vMAG_186|N=2|L=24730	24930	No	NA	43	13	0	Medium-quality	Genome-fragment	67.42	AAI-based (high-confidence)	0.0	1.0	
+vMAG_19|N=3|L=19628	20028	No	NA	32	3	0	Low-quality	Genome-fragment	45.62	AAI-based (high-confidence)	0.0	1.0	
+vMAG_58|N=3|L=28590	28990	No	NA	34	21	1	Medium-quality	Genome-fragment	77.43	AAI-based (high-confidence)	0.0	1.0	
+vMAG_171|N=2|L=13768	13968	No	NA	18	6	0	Low-quality	Genome-fragment	22.58	AAI-based (high-confidence)	0.0	1.0	
+vMAG_25|N=2|L=19011	19211	No	NA	15	1	9	Low-quality	Genome-fragment	7.33	HMM-based (lower-bound)	0.0	1.0	
+vMAG_170|N=3|L=45639	46039	No	NA	55	11	0	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+vMAG_4|N=2|L=27946	28146	Yes	23064	35	14	4	Low-quality	Genome-fragment	48.45	AAI-based (high-confidence)	18.06	1.0	
+vMAG_18|N=2|L=30379	30579	No	NA	33	1	12	Low-quality	Genome-fragment	25.07	HMM-based (lower-bound)	0.0	1.0	
+vMAG_149|N=2|L=19195	19395	No	NA	26	10	0	Low-quality	Genome-fragment	36.56	AAI-based (high-confidence)	0.0	1.0	
+vMAG_70|N=6|L=128229	129229	No	NA	151	6	9	Medium-quality	Genome-fragment	74.9	HMM-based (lower-bound)	0.0	1.0	
+vMAG_9|N=2|L=19023	19223	No	NA	30	0	2	Low-quality	Genome-fragment	30.8	AAI-based (medium-confidence)	0.0	1.0	no viral genes detected
+vMAG_113|N=5|L=84115	84915	Yes	12279	101	15	26	Low-quality	Genome-fragment	16.85	HMM-based (lower-bound)	85.54	1.0	>1 viral region detected
+vMAG_128|N=2|L=63092	63292	Yes	35455	85	19	17	Medium-quality	Genome-fragment	70.2	AAI-based (high-confidence)	43.98	1.0	>1 viral region detected
+vMAG_114|N=6|L=181376	182376	No	NA	245	4	14	High-quality	High-quality	95.62	HMM-based (lower-bound)	0.0	1.0	
+vMAG_123|N=3|L=187267	187667	Yes	36409	161	19	71	Complete	High-quality	100.0	Provirus (high-confidence)	80.6	1.0	contig >1.5x longer than expected genome length
+vMAG_80|N=3|L=22742	23142	No	NA	29	1	3	Low-quality	Genome-fragment	41.19	HMM-based (lower-bound)	0.0	1.0	
+vMAG_101|N=2|L=24190	24390	No	NA	33	7	0	Low-quality	Genome-fragment	45.47	AAI-based (high-confidence)	0.0	1.0	
+vMAG_174|N=3|L=106536	106936	No	NA	140	21	4	Complete	High-quality	100.0	DTR (high-confidence)	0.0	1.0	
+vMAG_66|N=2|L=26619	26819	No	NA	37	16	0	Medium-quality	Genome-fragment	77.28	AAI-based (high-confidence)	0.0	1.0	
+vMAG_120|N=2|L=13251	13451	No	NA	21	8	0	Low-quality	Genome-fragment	36.72	AAI-based (high-confidence)	0.0	1.0	
+vMAG_63|N=3|L=20765	21165	Yes	11607	27	10	3	Low-quality	Genome-fragment	32.82	AAI-based (medium-confidence)	45.16	1.0	
+vMAG_107|N=2|L=55650	55850	No	NA	63	4	6	Medium-quality	Genome-fragment	60.38	HMM-based (lower-bound)	0.0	1.0	
+vMAG_182|N=2|L=44679	44879	Yes	22417	44	2	6	Low-quality	Genome-fragment	48.79	AAI-based (high-confidence)	50.05	1.0	
+vMAG_98|N=3|L=18637	19037	No	NA	25	7	0	Low-quality	Genome-fragment	31.88	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_179|N=2|L=52888	53088	No	NA	52	2	4	Medium-quality	Genome-fragment	68.1	HMM-based (lower-bound)	0.0	1.0	
+vMAG_108|N=5|L=128985	129785	No	NA	145	34	4	Medium-quality	Genome-fragment	80.8	AAI-based (high-confidence)	0.0	1.0	
+vMAG_30|N=9|L=102653	104253	No	NA	141	45	10	High-quality	High-quality	100.0	AAI-based (medium-confidence)	0.0	1.0	contig >1.5x longer than expected genome length
+vMAG_79|N=3|L=63051	63451	No	NA	57	1	9	Low-quality	Genome-fragment	26.12	HMM-based (lower-bound)	0.0	1.0	
+vMAG_97|N=2|L=24198	24398	No	NA	26	2	0	Low-quality	Genome-fragment	21.57	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_27|N=8|L=83717	85117	No	NA	98	51	11	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	contig >1.5x longer than expected genome length
+vMAG_190|N=2|L=19372	19572	No	NA	28	0	9	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+vMAG_133|N=2|L=58538	58738	No	NA	71	10	1	Medium-quality	Genome-fragment	75.3	AAI-based (high-confidence)	0.0	1.0	
+vMAG_62|N=6|L=71039	72039	No	NA	96	2	5	Medium-quality	Genome-fragment	51.15	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_88|N=5|L=185631	186431	No	NA	288	29	2	High-quality	High-quality	99.31	AAI-based (high-confidence)	0.0	1.0	
+vMAG_130|N=3|L=30911	31311	No	NA	37	7	0	Medium-quality	Genome-fragment	77.23	AAI-based (high-confidence)	0.0	1.0	
+vMAG_64|N=2|L=28872	29072	No	NA	23	7	0	Medium-quality	Genome-fragment	76.18	AAI-based (high-confidence)	0.0	1.0	
+vMAG_187|N=3|L=49315	49715	No	NA	72	22	2	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+vMAG_106|N=3|L=26495	26895	No	NA	52	10	1	Low-quality	Genome-fragment	47.95	AAI-based (high-confidence)	0.0	1.0	
+vMAG_175|N=2|L=18400	18600	No	NA	21	14	0	Low-quality	Genome-fragment	37.44	AAI-based (high-confidence)	0.0	1.0	
+vMAG_154|N=2|L=89718	89918	No	NA	129	14	2	Medium-quality	Genome-fragment	62.15	AAI-based (high-confidence)	0.0	1.0	
+vMAG_74|N=4|L=94058	94658	No	NA	126	19	1	High-quality	High-quality	96.23	AAI-based (high-confidence)	0.0	1.0	
+vMAG_17|N=14|L=123379	125979	No	NA	169	37	11	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	contig >1.5x longer than expected genome length
+vMAG_89|N=3|L=25824	26224	No	NA	31	1	6	Low-quality	Genome-fragment	39.23	HMM-based (lower-bound)	0.0	1.0	
+vMAG_165|N=2|L=21953	22153	No	NA	26	8	0	Medium-quality	Genome-fragment	54.56	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_150|N=2|L=21480	21680	No	NA	33	4	0	Low-quality	Genome-fragment	46.89	AAI-based (high-confidence)	0.0	1.0	
+vMAG_105|N=2|L=13226	13426	No	NA	18	4	0	Low-quality	Genome-fragment	25.16	AAI-based (high-confidence)	0.0	1.0	
+vMAG_78|N=6|L=58521	59521	Yes	26148	76	18	16	Medium-quality	Genome-fragment	68.47	AAI-based (medium-confidence)	56.07	1.0	>1 viral region detected; contig >1.5x longer than expected genome length
+vMAG_45|N=7|L=114243	115443	No	NA	117	14	33	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	contig >1.5x longer than expected genome length
+vMAG_168|N=4|L=64838	65438	No	NA	69	25	0	Medium-quality	Genome-fragment	71.54	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_41|N=5|L=77920	78720	Yes	71576	115	30	4	High-quality	High-quality	100.0	AAI-based (high-confidence)	9.08	1.0	contig >1.5x longer than expected genome length
+vMAG_153|N=2|L=16843	17043	No	NA	23	10	0	Low-quality	Genome-fragment	32.82	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_202|N=2|L=20592	20792	No	NA	38	8	0	Medium-quality	Genome-fragment	51.09	AAI-based (high-confidence)	0.0	1.0	
+vMAG_134|N=2|L=85061	85261	No	NA	83	3	15	Low-quality	Genome-fragment	37.92	HMM-based (lower-bound)	0.0	1.0	
+vMAG_75|N=4|L=53744	54344	No	NA	79	28	0	High-quality	High-quality	96.35	AAI-based (high-confidence)	0.0	1.0	
+vMAG_193|N=3|L=39224	39624	No	NA	36	8	1	Medium-quality	Genome-fragment	55.91	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_109|N=2|L=14760	14960	No	NA	13	3	0	Low-quality	Genome-fragment	25.81	AAI-based (high-confidence)	0.0	1.0	
+vMAG_162|N=3|L=138551	138951	Yes	40984	153	26	59	Complete	High-quality	100.0	Provirus (high-confidence)	70.5	1.0	contig >1.5x longer than expected genome length
+vMAG_31|N=3|L=56428	56828	No	NA	74	13	1	Low-quality	Genome-fragment	32.79	AAI-based (high-confidence)	0.0	1.0	
+vMAG_110|N=2|L=25882	26082	No	NA	42	6	2	Low-quality	Genome-fragment	24.56	AAI-based (high-confidence)	0.0	1.0	
+vMAG_192|N=2|L=36165	36365	No	NA	50	18	0	Medium-quality	Genome-fragment	57.52	AAI-based (high-confidence)	0.0	1.0	
+vMAG_112|N=2|L=21172	21372	No	NA	23	2	5	Medium-quality	Genome-fragment	50.44	AAI-based (high-confidence)	0.0	1.0	
+vMAG_36|N=4|L=53572	54172	No	NA	70	30	2	Medium-quality	Genome-fragment	85.36	AAI-based (high-confidence)	0.0	1.0	
+vMAG_189|N=4|L=48959	49559	Yes	38208	63	17	7	High-quality	High-quality	93.43	AAI-based (high-confidence)	22.9	1.0	
+vMAG_169|N=4|L=190957	191557	No	NA	282	34	8	High-quality	High-quality	100.0	AAI-based (high-confidence)	0.0	1.0	
+vMAG_144|N=2|L=15719	15919	No	NA	24	11	0	Low-quality	Genome-fragment	33.6	AAI-based (high-confidence)	0.0	1.0	
+vMAG_49|N=2|L=17162	17362	No	NA	16	0	3	Low-quality	Genome-fragment	26.85	AAI-based (high-confidence)	0.0	1.0	no viral genes detected
+vMAG_145|N=2|L=18550	18750	No	NA	23	6	0	Low-quality	Genome-fragment	18.51	AAI-based (high-confidence)	0.0	1.0	
+vMAG_161|N=2|L=18916	19116	No	NA	24	11	1	Medium-quality	Genome-fragment	54.91	AAI-based (high-confidence)	0.0	1.0	
+vMAG_137|N=2|L=52999	53199	Yes	45038	76	20	4	Complete	High-quality	100.0	Provirus (high-confidence)	15.34	1.0	
+vMAG_83|N=2|L=17583	17783	No	NA	24	7	2	Low-quality	Genome-fragment	47.62	AAI-based (high-confidence)	0.0	1.0	
+vMAG_143|N=2|L=21832	22032	No	NA	32	11	0	Low-quality	Genome-fragment	35.85	AAI-based (high-confidence)	0.0	1.0	
+vMAG_77|N=2|L=18483	18683	No	NA	8	0	0	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+vMAG_54|N=2|L=18480	18680	No	NA	39	1	0	Low-quality	Genome-fragment	24.07	AAI-based (high-confidence)	0.0	1.0	
+vMAG_84|N=3|L=23633	24033	Yes	16936	32	3	8	Low-quality	Genome-fragment	21.19	HMM-based (lower-bound)	29.53	1.0	
+vMAG_35|N=4|L=26483	27083	No	NA	40	4	4	Low-quality	Genome-fragment	44.31	AAI-based (high-confidence)	0.0	1.0	
+vMAG_178|N=3|L=81284	81684	Yes	24949	100	18	34	Medium-quality	Genome-fragment	57.5	HMM-based (lower-bound)	69.46	1.0	low-confidence Provirus
+vMAG_167|N=3|L=46181	46581	No	NA	63	16	1	Medium-quality	Genome-fragment	83.18	AAI-based (high-confidence)	0.0	1.0	
+vMAG_34|N=2|L=11633	11833	No	NA	16	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+vMAG_82|N=3|L=20554	20954	No	NA	27	15	0	Low-quality	Genome-fragment	44.16	AAI-based (high-confidence)	0.0	1.0	low-confidence DTR
+vMAG_155|N=2|L=16023	16223	No	NA	26	0	1	Not-determined	Genome-fragment	NA	NA	0.0	1.0	no viral genes detected
+vMAG_124|N=2|L=19403	19603	No	NA	30	13	0	Low-quality	Genome-fragment	41.39	AAI-based (medium-confidence)	0.0	1.0	
+vMAG_203|N=2|L=24624	24824	No	NA	37	8	0	Medium-quality	Genome-fragment	50.11	AAI-based (high-confidence)	0.0	1.0	
+vMAG_141|N=2|L=42758	42958	Yes	36307	61	9	5	Medium-quality	Genome-fragment	60.59	AAI-based (high-confidence)	15.48	1.0	
+vMAG_204|N=4|L=134739	135339	No	NA	179	13	5	Medium-quality	Genome-fragment	74.6	AAI-based (high-confidence)	0.0	1.0	

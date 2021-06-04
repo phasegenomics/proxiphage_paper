@@ -1,0 +1,12 @@
+[Default - 2021-05-26 09:10:44,592] Loading binning information from proxiwrap_clusters
+[Default - 2021-05-26 09:10:45,099] Loading CheckM results from file proxiwrap_clusters.tsv
+[Default - 2021-05-26 09:10:45,119] Loading fasta file viral_contigs_5kb.fa into memory
+[Default - 2021-05-26 09:10:45,198] Loading data from table threshold_testing/viral_hosts_0.5.tsv
+Parsing arguments
+Loading blast results from ../proxiphage_paper 2/data/long_read_validation/long_read_alignment.blast.tsv
+selected 151 good MAGs from 365 MAGs
+selected 2341 good viruses from 2341 viruses
+found long-read reference for 2230 viruses
+found 947 prophages from a pool of 2341 viruses
+selected 452 verifiable virus-host links from 1150 links
+416 out of 430 prophage host links were validated with the long-read assembly (96%)
