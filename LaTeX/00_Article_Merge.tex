@@ -1,0 +1,24 @@
+%\documentclass[times, twoside, watermark]{zHenriquesLab-StyleBioRxiv}
+%\documentclass[times, twoside]{zHenriquesLab-StyleBioRxivNoLogos}
+\documentclass[times, twoside]{zHenriquesLab-StyleBioRxiv}
+\usepackage{blindtext}
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{multirow}
+
+
+\DeclareCaptionType{mycapequ}[][List of equations]
+\captionsetup[mycapequ]{labelformat=empty}
+\usepackage[overload]{textcase}
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\begin{document}
+    \bibliographystyle{zHenriquesLab-StyleBib}
+    \include{01_Article_MainText}
+    \include{03_Article_Supplementary}
+
+\end{document}
