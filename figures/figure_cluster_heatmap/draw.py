@@ -146,17 +146,23 @@ def make_heatmap(data_dict, mobile_clusters=None, output_file="heatmap.png", x_l
         print(f"Generated {len(col_colors)} randomized color labels for mobile element clusters")
     seaborn.set(font_scale=0.5)
     g = seaborn.clustermap(df, figsize=(6, 6), cmap="Greys_r", col_colors=col_colors,
-                           xticklabels=xticklabels, yticklabels=yticklabels,
-                           dendrogram_ratio=[0.15, 0.15], cbar_pos=[0.02, 0.85, 0.03, 0.1])
-    ax = g.ax_heatmap
-    g.ax_row_dendrogram.text(g.ax_row_dendrogram.get_xlim()[0] * 1,
-                             g.ax_row_dendrogram.get_ylim()[0] / 2,
-                             y_label, rotation=90, verticalalignment="center", fontsize=16)
-    g.ax_col_dendrogram.text(g.ax_col_dendrogram.get_xlim()[1] / 2,
-                             g.ax_col_dendrogram.get_ylim()[1] * 0.75,
-                             x_label, rotation=0, horizontalalignment="center", fontsize=16)
+                           xticklabels=xticklabels, yticklabels=yticklabels, col_cluster=True,
+                           dendrogram_ratio=[0.1, 0.1], cbar_pos=[0.02, 0.85, 0.03, 0.1])
+
+    for ax in [g.ax_row_dendrogram, g.ax_col_dendrogram]:
+        ax.clear()
+        ax.clear()
+        ax.set_facecolor('w')
+        ax.set_facecolor('w')
+        ax.get_xaxis().set_visible(False)
+        ax.get_yaxis().set_visible(False)
+
+    g.ax_col_dendrogram.text(0.5, 0.5, x_label, rotation=0, horizontalalignment="center", fontsize=20)
+    g.ax_row_dendrogram.text(0, 0.5, y_label, rotation=90, verticalalignment="center", fontsize=20)
+
     ax_color = g.ax_cbar
-    ax_color.set_ylabel(f"Log10(copy_count)", fontsize=8)
+    ax_color.set_ylabel(f"log(copy count)", fontsize=7, labelpad=-1)
+
     plt.savefig(output_file, bbox_inches='tight', dpi=300)
     plt.close()
 

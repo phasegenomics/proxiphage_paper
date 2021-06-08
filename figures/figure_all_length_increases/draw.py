@@ -225,7 +225,7 @@ def main():
         axes.append(fig.add_subplot(gs[i]))
 
     samples = ["sheep_gut", "human_gut", "rumen", "wastewater"]
-    sample_names = ["Sheep gut", "Human fecal", "Cow rumen", "Wastewater"]
+    sample_names = ["Sheep fecal", "Human fecal", "Cow rumen", "Wastewater"]
     for i, sample in enumerate(samples):
         vmags_file = f"{sample}.vmags.checkv.tsv"
         contigs_file = f"{sample}.contigs.checkv.tsv"

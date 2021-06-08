@@ -46,44 +46,42 @@ def initialize_plot_style():
 def load_mags(filename):
     print(f"Loading data from {filename}")
     data = dict()
+    contig_ct = dict()
     with open(filename) as input:
         for line in input:
             cut = line.strip().split("\t")
-            contig = cut[0]
+            contig = cut[1] + ":" + cut[0]
             mag = cut[1]
             data[contig] = mag
-    return data
+            if mag not in contig_ct:
+                contig_ct[mag] = 0
+            contig_ct[mag] += 1
+    final_data = dict()
+    for name, mag in data.items():
+        new_name = str(contig_ct[mag] / 10000) + ":" + name
+        final_data[new_name] = mag
+    return final_data
 
 
-def load_host_links(filename):
+def load_host_links(filename, vmags):
     print(f"Loading data from {filename}")
     data = dict()
     with open(filename) as input:
         for i, line in enumerate(input):
             cut = line.strip().split("\t")
             if i == 0:
-                if cut[0] != "mobile_contig_name" or \
-                        cut[5] != "cluster_name" or \
-                        cut[14] != "mobile_element_copies_per_cell":
-                    raise ImportError("not a good master table")
                 continue
             virus = cut[0]
+            for new_name in vmags.keys():
+                if virus == new_name.split(":")[-1]:
+                    virus = new_name
+                    break
             bacteria = cut[5]
             copy_count = float(cut[14])
             if virus not in data:
                 data[virus] = dict()
             data[virus][bacteria] = copy_count
     return data
-
-
-def filter_binned_only(hosts, vmags):
-    print(f"Filtering only binned contigs")
-    filtered_hosts = dict()
-    for virus, subdata in hosts.items():
-        if virus in vmags:
-            filtered_hosts[virus] = subdata
-    print(f"Kept {len(filtered_hosts)} out of {len(hosts)} viruses")
-    return filtered_hosts
 
 
 def generate_column_color_labels(contig_mags, df):
@@ -138,14 +136,19 @@ def make_heatmap(data_dict, mobile_clusters=None, output_file="heatmap.png", x_l
 
     """
     print(f"Plotting heatmap {output_file}")
+    for k in mobile_clusters.keys():
+        if k not in data_dict:
+            data_dict[k] = dict()
+
     df = pandas.DataFrame.from_dict(data_dict)
     df = df.fillna(0)
     # remove columns and rows with all 0s
-    df = df.loc[:, (df != 0).any(axis=0)]
-    df = df.loc[(df != 0).any(axis=1)]
+    # df = df.loc[:, (df != 0).any(axis=0)]
+    # df = df.loc[(df != 0).any(axis=1)]
     # log normalize
     df += 0.01
     df = numpy.log(df)
+    df = df.reindex(sorted(df.columns, reverse=True), axis=1)
 
     rows, columns = df.shape
     print(f"Matrix size: {rows} X {columns}")
@@ -156,19 +159,35 @@ def make_heatmap(data_dict, mobile_clusters=None, output_file="heatmap.png", x_l
         print(f"Generated {len(col_colors)} randomized color labels for mobile element clusters")
     seaborn.set(font_scale=0.5)
     g = seaborn.clustermap(df, figsize=(6, 6), cmap="Greys_r", col_colors=col_colors,
-                           xticklabels=xticklabels, yticklabels=yticklabels,
-                           dendrogram_ratio=[0.15, 0.15], cbar_pos=[0.02, 0.85, 0.03, 0.1])
-    ax = g.ax_heatmap
-    g.ax_row_dendrogram.text(g.ax_row_dendrogram.get_xlim()[0] * 0.75,
-                             g.ax_row_dendrogram.get_ylim()[0] / 2,
-                             y_label, rotation=90, verticalalignment="center", fontsize=16)
-    g.ax_col_dendrogram.text(g.ax_col_dendrogram.get_xlim()[1] / 2,
-                             g.ax_col_dendrogram.get_ylim()[1] * 0.75,
-                             x_label, rotation=0, horizontalalignment="center", fontsize=16)
+                           xticklabels=xticklabels, yticklabels=yticklabels, col_cluster=False,
+                           dendrogram_ratio=[0.1, 0.1], cbar_pos=[0.02, 0.85, 0.03, 0.1])
+
+    for ax in [g.ax_row_dendrogram, g.ax_col_dendrogram]:
+        ax.clear()
+        ax.clear()
+        ax.set_facecolor('w')
+        ax.set_facecolor('w')
+        ax.get_xaxis().set_visible(False)
+        ax.get_yaxis().set_visible(False)
+
+    g.ax_col_dendrogram.text(0.5, 0.5, x_label, rotation=0, horizontalalignment="center", fontsize=20)
+    g.ax_row_dendrogram.text(0, 0.5, y_label, rotation=90, verticalalignment="center", fontsize=20)
+
     ax_color = g.ax_cbar
-    ax_color.set_ylabel(f"Log10(copy_count)", fontsize=8)
+    ax_color.set_ylabel(f"log(copy count)", fontsize=7, labelpad=-1)
+
     plt.savefig(output_file, bbox_inches='tight', dpi=300)
     plt.close()
+
+
+def filter_binned_only(hosts, vmags):
+    print(f"Filtering only binned contigs")
+    filtered_hosts = dict()
+    for virus, subdata in hosts.items():
+        if virus in vmags:
+            filtered_hosts[virus] = subdata
+    print(f"Kept {len(filtered_hosts)} out of {len(hosts)} viruses")
+    return filtered_hosts
 
 
 def manual_png(figure, x, y, fig, resize=False):
@@ -188,13 +207,13 @@ def manual_png(figure, x, y, fig, resize=False):
 
 def main():
     vmags = load_mags("viral_mags.tsv")
-    hosts = load_host_links("unfiltered_master_table.tsv")
+    hosts = load_host_links("unfiltered_master_table.tsv", vmags)
     hosts = filter_binned_only(hosts, vmags)
     initialize_plot_style()
     make_heatmap(hosts, mobile_clusters=vmags, output_file="unfiltered_master_table.png",
                  x_label="Viral contigs (unfiltered hits)", y_label="Prokaryotic MAGs")
 
-    hosts = load_host_links("filtered_master_table.tsv")
+    hosts = load_host_links("filtered_master_table.tsv", vmags)
     hosts = filter_binned_only(hosts, vmags)
     initialize_plot_style()
     make_heatmap(hosts, mobile_clusters=vmags, output_file="filtered_master_table.png",

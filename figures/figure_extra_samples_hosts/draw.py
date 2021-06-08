@@ -208,7 +208,7 @@ def filter_binned_only(hosts, vmags):
 def main():
     table_files = ["sheep_master_table.tsv", "human_master_table.tsv", "rumen_master_table.tsv", "wastewater_master_table.tsv"]
     vmag_tables = ["sheep_vmags.tsv", "human_vmags.tsv", "rumen_vmags.tsv", "wastewater_vmags.tsv"]
-    names = ["Sheep gut", "Human fecal", "Cow rumen", "Wastewater"]
+    names = ["Sheep fecal", "Human fecal", "Cow rumen", "Wastewater"]
     intermediate_plots = ["sheep_master_table.png", "human_master_table.png", "rumen_master_table.png", "wastewater_master_table.png"]
 
     for i, name in enumerate(names):
