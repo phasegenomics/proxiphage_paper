@@ -1,0 +1,202 @@
+[ProxiPhage - 2021-06-11 21:57:38,852] 
+########################################################################################################################
+#####                                       Starting ProxiPhage run (v0.9.4)                                       #####
+########################################################################################################################
+
+[ProxiPhage - 2021-06-11 21:57:38,852] 
+########################################################################################################################
+#####                                       Initializing the PGHostFinder run                                      #####
+########################################################################################################################
+
+[ProxiPhage - 2021-06-11 21:57:38,852] Loading fasta file assembly.fasta into memory
+[ProxiPhage - 2021-06-11 21:57:44,740] Loaded in 442021 contigs from the main assembly
+[ProxiPhage - 2021-06-11 21:57:44,740] Loading fasta file viral_contigs.fasta into memory
+[ProxiPhage - 2021-06-11 21:57:44,885] Loaded in 1609 mobile element contigs
+[ProxiPhage - 2021-06-11 21:57:44,886] Calculating contig lengths
+[ProxiPhage - 2021-06-11 21:57:45,086] Loading binning information from proxiwrap_out/proxiwrap_clusters
+[ProxiPhage - 2021-06-11 21:57:48,202] Loaded 155 possible metagenomic MAG hosts
+[ProxiPhage - 2021-06-11 21:57:48,203] Loading binning information from viral_binning_out/viral_mags_final
+[ProxiPhage - 2021-06-11 21:57:48,619] 
+########################################################################################################################
+#####                                          Processing HiC linkage data                                         #####
+########################################################################################################################
+
+[ProxiPhage - 2021-06-11 21:57:48,619] Looks like links were previously loaded and saved into host_finder_out_fixed/inter_contig_linkages.tsv. Skipping going over the bam file and using links file instead
+[ProxiPhage - 2021-06-11 21:57:48,619] Loading in previously parsed HiC linkage data from host_finder_out_fixed/inter_contig_linkages.tsv
+[ProxiPhage - 2021-06-11 21:57:50,195] Loaded 1000000 lines
+[ProxiPhage - 2021-06-11 21:57:51,755] Loaded 2000000 lines
+[ProxiPhage - 2021-06-11 21:57:53,316] Loaded 3000000 lines
+[ProxiPhage - 2021-06-11 21:57:54,878] Loaded 4000000 lines
+[ProxiPhage - 2021-06-11 21:57:56,435] Loaded 5000000 lines
+[ProxiPhage - 2021-06-11 21:57:58,021] Loaded 6000000 lines
+[ProxiPhage - 2021-06-11 21:57:59,575] Loaded 7000000 lines
+[ProxiPhage - 2021-06-11 21:58:01,134] Loaded 8000000 lines
+[ProxiPhage - 2021-06-11 21:58:02,696] Loaded 9000000 lines
+[ProxiPhage - 2021-06-11 21:58:04,257] Loaded 10000000 lines
+[ProxiPhage - 2021-06-11 21:58:05,820] Loaded 11000000 lines
+[ProxiPhage - 2021-06-11 21:58:07,382] Loaded 12000000 lines
+[ProxiPhage - 2021-06-11 21:58:08,988] Loaded 13000000 lines
+[ProxiPhage - 2021-06-11 21:58:10,555] Loaded 14000000 lines
+[ProxiPhage - 2021-06-11 21:58:12,123] Loaded 15000000 lines
+[ProxiPhage - 2021-06-11 21:58:13,678] Loaded 16000000 lines
+[ProxiPhage - 2021-06-11 21:58:15,247] Loaded 17000000 lines
+[ProxiPhage - 2021-06-11 21:58:16,848] Loaded 18000000 lines
+[ProxiPhage - 2021-06-11 21:58:18,414] Loaded 19000000 lines
+[ProxiPhage - 2021-06-11 21:58:19,981] Loaded 20000000 lines
+[ProxiPhage - 2021-06-11 21:58:21,562] Loaded 21000000 lines
+[ProxiPhage - 2021-06-11 21:58:23,131] Loaded 22000000 lines
+[ProxiPhage - 2021-06-11 21:58:24,698] Loaded 23000000 lines
+[ProxiPhage - 2021-06-11 21:58:26,281] Loaded 24000000 lines
+[ProxiPhage - 2021-06-11 21:58:27,851] Loaded 25000000 lines
+[ProxiPhage - 2021-06-11 21:58:29,419] Loaded 26000000 lines
+[ProxiPhage - 2021-06-11 21:58:31,010] Loaded 27000000 lines
+[ProxiPhage - 2021-06-11 21:58:32,584] Loaded 28000000 lines
+[ProxiPhage - 2021-06-11 21:58:34,152] Loaded 29000000 lines
+[ProxiPhage - 2021-06-11 21:58:35,748] Loaded 30000000 lines
+[ProxiPhage - 2021-06-11 21:58:37,314] Loaded 31000000 lines
+[ProxiPhage - 2021-06-11 21:58:38,889] Loaded 32000000 lines
+[ProxiPhage - 2021-06-11 21:58:40,471] Loaded 33000000 lines
+[ProxiPhage - 2021-06-11 21:58:42,072] Loaded 34000000 lines
+[ProxiPhage - 2021-06-11 21:58:43,663] Loaded 35000000 lines
+[ProxiPhage - 2021-06-11 21:58:45,248] Loaded 36000000 lines
+[ProxiPhage - 2021-06-11 21:58:47,144] Loaded 37000000 lines
+[ProxiPhage - 2021-06-11 21:58:48,728] Loaded 38000000 lines
+[ProxiPhage - 2021-06-11 21:58:50,313] Loaded 39000000 lines
+[ProxiPhage - 2021-06-11 21:58:51,903] Loaded 40000000 lines
+[ProxiPhage - 2021-06-11 21:58:53,502] Loaded 41000000 lines
+[ProxiPhage - 2021-06-11 21:58:55,439] Loaded 42000000 lines
+[ProxiPhage - 2021-06-11 21:58:57,035] Loaded 43000000 lines
+[ProxiPhage - 2021-06-11 21:58:58,642] Loaded 44000000 lines
+[ProxiPhage - 2021-06-11 21:59:00,625] Loaded 45000000 lines
+[ProxiPhage - 2021-06-11 21:59:02,670] Loaded 46000000 lines
+[ProxiPhage - 2021-06-11 21:59:04,786] Loaded 47000000 lines
+[ProxiPhage - 2021-06-11 21:59:05,795] Loaded 47292532 lines
+[ProxiPhage - 2021-06-11 21:59:05,860] Loading in previously parsed HiC linkage data from host_finder_out_fixed/inter_contig_linkages.tsv
+[ProxiPhage - 2021-06-11 21:59:06,218] Loaded 346804 lines
+[ProxiPhage - 2021-06-11 21:59:06,310] 
+########################################################################################################################
+#####                        Calculating HiC connectivity between hosts and mobile elements                        #####
+########################################################################################################################
+
+[ProxiPhage - 2021-06-11 21:59:06,310] Pre-computing the intra-cluster HiC connectivity information for speed
+[ProxiPhage - 2021-06-11 21:59:10,570] Processed 100 clusters
+[ProxiPhage - 2021-06-11 21:59:15,132] Processed 154 clusters
+[ProxiPhage - 2021-06-11 21:59:15,517] Pre-computing the abundance values of mobile elements
+[ProxiPhage - 2021-06-11 21:59:15,541] Pre-computing the abundance values of metagenomic clusters
+[ProxiPhage - 2021-06-11 21:59:15,925] Looking for HiC connections of 1609 mobile contigs to 155 putative host genomes
+[ProxiPhage - 2021-06-11 22:00:00,773] Processed 1000 mobile contigs
+[ProxiPhage - 2021-06-11 22:00:27,883] Processed 1608 mobile contigs
+[ProxiPhage - 2021-06-11 22:00:27,883] Identified 92438 possible host linkages and saved them to the unfiltered master table
+[ProxiPhage - 2021-06-11 22:00:27,883] Processing master table and filtering out likely false positives
+[ProxiPhage - 2021-06-11 22:00:27,883] Trying different cut-offs of the minimum copy count per cell, constructing a ROC curve, and using the curve to choose the optimal threshold value
+[ProxiPhage - 2021-06-11 22:00:27,883] Loading data from table host_finder_out_fixed/unfiltered_master_table.tsv
+[ProxiPhage - 2021-06-11 22:00:29,431] Going over all alignments
+[ProxiPhage - 2021-06-11 22:00:30,431] The ROC curve area (AUC) is 0.9728424991728014
+[ProxiPhage - 2021-06-11 22:00:30,431] The specificity analysis determined the AUC to be 0.9728424991728014, so the determined optimal threshold calculation is likely reliable
+[ProxiPhage - 2021-06-11 22:00:30,431] Optimal minimum element copy number determined to be 0.027680149049219956
+[ProxiPhage - 2021-06-11 22:00:30,431] Drawing ROC  curve in host_finder_out_fixed/min_copy_count_roc_plot.png
+[ProxiPhage - 2021-06-11 22:00:30,464] Saving ROC plot to host_finder_out_fixed/min_copy_count_roc_plot.png
+[ProxiPhage - 2021-06-11 22:00:30,902] Warning: Estimated minimum copy count threshold estimate is unreasonably low; overriding to 0.1
+[ProxiPhage - 2021-06-11 22:00:30,903] Loading data from table host_finder_out_fixed/unfiltered_master_table.tsv
+[ProxiPhage - 2021-06-11 22:00:33,127] There are 1314 significant hits left after thresholding
+[ProxiPhage - 2021-06-11 22:00:33,172] 
+########################################################################################################################
+#####                    Calculating HiC connectivity between hosts and mobile element clusters                    #####
+########################################################################################################################
+
+[ProxiPhage - 2021-06-11 22:00:33,173] Looking for HiC connections of 205 mobile clusters to putative host genomes
+[ProxiPhage - 2021-06-11 22:00:47,956] Processing master table and filtering out likely false positives
+[ProxiPhage - 2021-06-11 22:00:47,956] Trying different cut-offs of the minimum copy count per cell, constructing a ROC curve, and using the curve to choose the optimal threshold value
+[ProxiPhage - 2021-06-11 22:00:47,956] Loading data from table host_finder_out_fixed/unfiltered_master_table.tsv
+[ProxiPhage - 2021-06-11 22:00:49,481] Going over all alignments
+[ProxiPhage - 2021-06-11 22:00:50,491] The ROC curve area (AUC) is 0.9728424991728014
+[ProxiPhage - 2021-06-11 22:00:50,492] The specificity analysis determined the AUC to be 0.9728424991728014, so the determined optimal threshold calculation is likely reliable
+[ProxiPhage - 2021-06-11 22:00:50,492] Optimal minimum element copy number determined to be 0.027680149049219956
+[ProxiPhage - 2021-06-11 22:00:50,492] Drawing ROC  curve in host_finder_out_fixed/min_copy_count_roc_plot.png
+[ProxiPhage - 2021-06-11 22:00:50,519] Saving ROC plot to host_finder_out_fixed/min_copy_count_roc_plot.png
+[ProxiPhage - 2021-06-11 22:00:50,914] Warning: Estimated minimum copy count threshold estimate is unreasonably low; overriding to 0.1
+[ProxiPhage - 2021-06-11 22:00:50,914] Desired minimum copy count threshold provided by user: 0.1. Will use that instead of estimated best value
+[ProxiPhage - 2021-06-11 22:00:50,914] Loading data from table host_finder_out_fixed/unfiltered_clustered_master_table.tsv
+[ProxiPhage - 2021-06-11 22:00:51,408] There are 185 significant hits left after thresholding
+[ProxiPhage - 2021-06-11 22:00:51,417] 
+########################################################################################################################
+#####                                            Making plots and tables                                           #####
+########################################################################################################################
+
+[ProxiPhage - 2021-06-11 22:00:51,417] Making reports of host connectivity information in host_finder_out_fixed/unfiltered_master_table.tsv
+[ProxiPhage - 2021-06-11 22:00:51,418] Loading data from table host_finder_out_fixed/unfiltered_master_table.tsv
+[ProxiPhage - 2021-06-11 22:00:52,946] Making matrix, heatmap, and histogram of adjusted_inter_vs_intra_ratio
+[ProxiPhage - 2021-06-11 22:00:52,946] Generating data for plotting
+[ProxiPhage - 2021-06-11 22:00:52,987] Writing to file host_finder_out_fixed/reports/unfiltered_contigs_matrix_adjusted_inter_vs_intra_ratio.tsv
+[ProxiPhage - 2021-06-11 22:00:54,644] Plotting histogram host_finder_out_fixed/reports/unfiltered_contigs_histogram_adjusted_inter_vs_intra_ratio.png
+[ProxiPhage - 2021-06-11 22:00:57,257] Plotting heatmap host_finder_out_fixed/reports/unfiltered_contigs_heatmap_adjusted_inter_vs_intra_ratio.png
+[ProxiPhage - 2021-06-11 22:00:59,565] Generated 1604 randomized color labels for mobile element clusters
+[ProxiPhage - 2021-06-11 22:00:59,565] Plotting the heatmap data
+[ProxiPhage - 2021-06-11 22:01:01,051] Making matrix, heatmap, and histogram of mobile_element_copies_per_cell
+[ProxiPhage - 2021-06-11 22:01:01,051] Generating data for plotting
+[ProxiPhage - 2021-06-11 22:01:01,092] Writing to file host_finder_out_fixed/reports/unfiltered_contigs_matrix_mobile_element_copies_per_cell.tsv
+[ProxiPhage - 2021-06-11 22:01:02,749] Plotting histogram host_finder_out_fixed/reports/unfiltered_contigs_histogram_mobile_element_copies_per_cell.png
+[ProxiPhage - 2021-06-11 22:01:05,454] Plotting heatmap host_finder_out_fixed/reports/unfiltered_contigs_heatmap_mobile_element_copies_per_cell.png
+[ProxiPhage - 2021-06-11 22:01:07,271] Generated 1604 randomized color labels for mobile element clusters
+[ProxiPhage - 2021-06-11 22:01:07,271] Plotting the heatmap data
+[ProxiPhage - 2021-06-11 22:01:08,674] Plotting histogram of number of hosts found per mobile element to host_finder_out_fixed/reports/unfiltered_contigs_host_count_histogram.png
+[ProxiPhage - 2021-06-11 22:01:08,675] At least 1 host was found for 1604 mobile contigs.
+[ProxiPhage - 2021-06-11 22:01:08,675] In total there were 92438 host associations found.
+[ProxiPhage - 2021-06-11 22:01:09,694] Making reports of host connectivity information in host_finder_out_fixed/filtered_master_table.tsv
+[ProxiPhage - 2021-06-11 22:01:09,694] Loading data from table host_finder_out_fixed/filtered_master_table.tsv
+[ProxiPhage - 2021-06-11 22:01:09,716] Making matrix, heatmap, and histogram of adjusted_inter_vs_intra_ratio
+[ProxiPhage - 2021-06-11 22:01:09,716] Generating data for plotting
+[ProxiPhage - 2021-06-11 22:01:09,717] Writing to file host_finder_out_fixed/reports/filtered_contigs_matrix_adjusted_inter_vs_intra_ratio.tsv
+[ProxiPhage - 2021-06-11 22:01:10,896] Plotting histogram host_finder_out_fixed/reports/filtered_contigs_histogram_adjusted_inter_vs_intra_ratio.png
+[ProxiPhage - 2021-06-11 22:01:12,170] Plotting heatmap host_finder_out_fixed/reports/filtered_contigs_heatmap_adjusted_inter_vs_intra_ratio.png
+[ProxiPhage - 2021-06-11 22:01:14,146] Generated 1262 randomized color labels for mobile element clusters
+[ProxiPhage - 2021-06-11 22:01:14,146] Plotting the heatmap data
+[ProxiPhage - 2021-06-11 22:01:15,267] Making matrix, heatmap, and histogram of mobile_element_copies_per_cell
+[ProxiPhage - 2021-06-11 22:01:15,267] Generating data for plotting
+[ProxiPhage - 2021-06-11 22:01:15,269] Writing to file host_finder_out_fixed/reports/filtered_contigs_matrix_mobile_element_copies_per_cell.tsv
+[ProxiPhage - 2021-06-11 22:01:16,444] Plotting histogram host_finder_out_fixed/reports/filtered_contigs_histogram_mobile_element_copies_per_cell.png
+[ProxiPhage - 2021-06-11 22:01:17,563] Plotting heatmap host_finder_out_fixed/reports/filtered_contigs_heatmap_mobile_element_copies_per_cell.png
+[ProxiPhage - 2021-06-11 22:01:18,971] Generated 1262 randomized color labels for mobile element clusters
+[ProxiPhage - 2021-06-11 22:01:18,972] Plotting the heatmap data
+[ProxiPhage - 2021-06-11 22:01:20,093] Plotting histogram of number of hosts found per mobile element to host_finder_out_fixed/reports/filtered_contigs_host_count_histogram.png
+[ProxiPhage - 2021-06-11 22:01:20,094] At least 1 host was found for 1262 mobile contigs.
+[ProxiPhage - 2021-06-11 22:01:20,094] In total there were 1314 host associations found.
+[ProxiPhage - 2021-06-11 22:01:20,803] Making reports of host connectivity information in host_finder_out_fixed/unfiltered_clustered_master_table.tsv
+[ProxiPhage - 2021-06-11 22:01:20,803] Loading data from table host_finder_out_fixed/unfiltered_clustered_master_table.tsv
+[ProxiPhage - 2021-06-11 22:01:21,109] Making matrix, heatmap, and histogram of adjusted_inter_vs_intra_ratio
+[ProxiPhage - 2021-06-11 22:01:21,110] Generating data for plotting
+[ProxiPhage - 2021-06-11 22:01:21,115] Writing to file host_finder_out_fixed/reports/unfiltered_clusters_matrix_adjusted_inter_vs_intra_ratio.tsv
+[ProxiPhage - 2021-06-11 22:01:21,334] Plotting histogram host_finder_out_fixed/reports/unfiltered_clusters_histogram_adjusted_inter_vs_intra_ratio.png
+[ProxiPhage - 2021-06-11 22:01:22,979] Plotting heatmap host_finder_out_fixed/reports/unfiltered_clusters_heatmap_adjusted_inter_vs_intra_ratio.png
+[ProxiPhage - 2021-06-11 22:01:23,217] Plotting the heatmap data
+[ProxiPhage - 2021-06-11 22:01:23,863] Making matrix, heatmap, and histogram of mobile_element_copies_per_cell
+[ProxiPhage - 2021-06-11 22:01:23,863] Generating data for plotting
+[ProxiPhage - 2021-06-11 22:01:23,871] Writing to file host_finder_out_fixed/reports/unfiltered_clusters_matrix_mobile_element_copies_per_cell.tsv
+[ProxiPhage - 2021-06-11 22:01:24,095] Plotting histogram host_finder_out_fixed/reports/unfiltered_clusters_histogram_mobile_element_copies_per_cell.png
+[ProxiPhage - 2021-06-11 22:01:25,993] Plotting heatmap host_finder_out_fixed/reports/unfiltered_clusters_heatmap_mobile_element_copies_per_cell.png
+[ProxiPhage - 2021-06-11 22:01:26,775] Plotting the heatmap data
+[ProxiPhage - 2021-06-11 22:01:27,410] Plotting histogram of number of hosts found per mobile element to host_finder_out_fixed/reports/unfiltered_clusters_host_count_histogram.png
+[ProxiPhage - 2021-06-11 22:01:27,411] At least 1 host was found for 205 mobile contigs.
+[ProxiPhage - 2021-06-11 22:01:27,411] In total there were 18692 host associations found.
+[ProxiPhage - 2021-06-11 22:01:28,457] Making reports of host connectivity information in host_finder_out_fixed/filtered_clustered_master_table.tsv
+[ProxiPhage - 2021-06-11 22:01:28,457] Loading data from table host_finder_out_fixed/filtered_clustered_master_table.tsv
+[ProxiPhage - 2021-06-11 22:01:28,461] Making matrix, heatmap, and histogram of adjusted_inter_vs_intra_ratio
+[ProxiPhage - 2021-06-11 22:01:28,461] Generating data for plotting
+[ProxiPhage - 2021-06-11 22:01:28,461] Writing to file host_finder_out_fixed/reports/filtered_clusters_matrix_adjusted_inter_vs_intra_ratio.tsv
+[ProxiPhage - 2021-06-11 22:01:28,625] Plotting histogram host_finder_out_fixed/reports/filtered_clusters_histogram_adjusted_inter_vs_intra_ratio.png
+[ProxiPhage - 2021-06-11 22:01:29,819] Plotting heatmap host_finder_out_fixed/reports/filtered_clusters_heatmap_adjusted_inter_vs_intra_ratio.png
+[ProxiPhage - 2021-06-11 22:01:30,025] Plotting the heatmap data
+[ProxiPhage - 2021-06-11 22:01:30,612] Making matrix, heatmap, and histogram of mobile_element_copies_per_cell
+[ProxiPhage - 2021-06-11 22:01:30,612] Generating data for plotting
+[ProxiPhage - 2021-06-11 22:01:30,613] Writing to file host_finder_out_fixed/reports/filtered_clusters_matrix_mobile_element_copies_per_cell.tsv
+[ProxiPhage - 2021-06-11 22:01:30,777] Plotting histogram host_finder_out_fixed/reports/filtered_clusters_histogram_mobile_element_copies_per_cell.png
+[ProxiPhage - 2021-06-11 22:01:31,955] Plotting heatmap host_finder_out_fixed/reports/filtered_clusters_heatmap_mobile_element_copies_per_cell.png
+[ProxiPhage - 2021-06-11 22:01:32,160] Plotting the heatmap data
+[ProxiPhage - 2021-06-11 22:01:32,737] Plotting histogram of number of hosts found per mobile element to host_finder_out_fixed/reports/filtered_clusters_host_count_histogram.png
+[ProxiPhage - 2021-06-11 22:01:32,738] At least 1 host was found for 180 mobile contigs.
+[ProxiPhage - 2021-06-11 22:01:32,738] In total there were 185 host associations found.
+[ProxiPhage - 2021-06-11 22:01:33,347] 
+########################################################################################################################
+#####                                        Host finding pipeline complete!                                       #####
+########################################################################################################################
+

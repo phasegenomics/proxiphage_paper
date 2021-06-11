@@ -1,0 +1,17 @@
+{
+    "rerun": false,
+    "force_use_roc": false,
+    "max_mismatches": 1,
+    "min_ratio": 0.1,
+    "min_connections": 2,
+    "min_copy_count": null,
+    "min_intra_connections": 10,
+    "min_inter_read_distance": 100000,
+    "mobile_clusters_dir": "viral_binning_out/viral_mags_final",
+    "min_host_percentile": 0.8,
+    "output_dir": "host_finder_out_fixed",
+    "assembly_file": "assembly.fasta",
+    "mobile_elements_file": "viral_contigs.fasta",
+    "alignment_file": "viral_contigs.list",
+    "cluster_dir": "proxiwrap_out/proxiwrap_clusters"
+}
